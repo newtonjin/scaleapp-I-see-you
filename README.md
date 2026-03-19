@@ -89,13 +89,13 @@ On top of all the ad garbage, OKOK requests permissions that have absolutely zer
 
 | Permission | Justification for a scale app? |
 |---|---|
-| `READ_CONTACTS` | ❌ None |
-| `RECORD_AUDIO` | ❌ None |
-| `CAMERA` | ❌ None (maybe QR scan, but CameraX isn't even used) |
-| `READ_CALENDAR` / `WRITE_CALENDAR` | ❌ None |
-| `READ_PHONE_STATE` | ❌ None |
-| `PACKAGE_USAGE_STATS` | ❌ None |
-| `ACCESS_FINE_LOCATION` | ⚠️ Required for BLE scanning on older Android, but also fed to ad SDKs |
+| `READ_CONTACTS` |  None |
+| `RECORD_AUDIO` |  None |
+| `CAMERA` |  None (maybe QR scan, but CameraX isn't even used) |
+| `READ_CALENDAR` / `WRITE_CALENDAR` |  None |
+| `READ_PHONE_STATE` |  None |
+| `PACKAGE_USAGE_STATS` |  None |
+| `ACCESS_FINE_LOCATION` |  Required for BLE scanning on older Android, but also fed to ad SDKs |
 
 Why does a scale app need my contacts? My microphone? My camera? My calendar? It doesn't. These permissions exist because the ad SDKs demand them for behavioral targeting. More data about you = higher bid prices = more money per impression. You're not the user. You're the product.
 
