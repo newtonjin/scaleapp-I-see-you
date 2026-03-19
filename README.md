@@ -1,8 +1,8 @@
 # Dissecting a Scale App That Ships More Ad Code Than Actual Features
 
 **Target:** OKOK International v3.1.51 (com.chipsea.btcontrol)  
-**Tags:** Android, Reverse Engineering, Malvertising, Privacy, Smali Patching
-**AI%: 30% used to find files and methods, code changes and so were all manual!**
+**Tags:** Android, Reverse Engineering, Malvertising, Privacy, Smali Patching  
+**AI%:** 30% used to find files and methods, code changes and so were all manual!**
 
 ---
 
